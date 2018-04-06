@@ -1,5 +1,6 @@
 from math import sqrt
 import numpy as np
+import csv
 
 def get_neighbors(eqlidian_dis, k):
     sort_index = np.argsort(eqlidian_dis)
@@ -42,4 +43,3 @@ for x in neighbors:
     class_dataset.append(dataset[x][-1])
 a = max(set(class_dataset), key=class_dataset.count)
 print('Expected %d, Got %d.' % (dataset[8][-1], a))
-
