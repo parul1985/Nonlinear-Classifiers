@@ -29,7 +29,7 @@ dataset = [[2.7810836,2.550537003,0],
 [8.675418651,-0.242068655,1],
 [7.673756466,3.508563011,1]]
 
-test_data = dataset[8]
+test_data = dataset[4]
 eqlidian_dis = []
 k = 3
 for i_row in range(len(dataset)):
@@ -42,4 +42,7 @@ class_dataset = []
 for x in neighbors:
     class_dataset.append(dataset[x][-1])
 a = max(set(class_dataset), key=class_dataset.count)
-print('Expected %d, Got %d.' % (dataset[8][-1], a))
+print('Expected %d, Got %d.' % (dataset[4][-1], a))
+
+
+
