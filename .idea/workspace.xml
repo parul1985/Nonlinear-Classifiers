@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="637849bb-89a3-484e-a4ea-0f773c26f525" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/KNN/kNN_v1.py" afterPath="$PROJECT_DIR$/KNN/kNN_v1.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/KNN/Iris.csv" afterPath="$PROJECT_DIR$/KNN/Iris.csv" />
+      <change beforePath="$PROJECT_DIR$/KNN/kNN_v2.py" afterPath="$PROJECT_DIR$/KNN/kNN_v2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kNN_v1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kNN_v1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN/kNN_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="351">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kNN_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KNN/kNN_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -54,14 +68,15 @@
         <option value="$PROJECT_DIR$/kNN_v1.py" />
         <option value="$PROJECT_DIR$/kNN_v2.py" />
         <option value="$PROJECT_DIR$/KNN/kNN_v1.py" />
+        <option value="$PROJECT_DIR$/KNN/kNN_v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3004" />
-    <option name="y" value="143" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1380" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,8 +101,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="DecisionTrees_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecisionTrees_v1" type="462c0819:PsiDirectoryNode" />
+              <item name="Non linear classifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Non linear classifiers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Non linear classifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Non linear classifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,9 +137,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3192" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-8" y="-8" width="1380" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29359165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -145,6 +166,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/KNN/kNN_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/kNN_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/kNN_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DecisionTrees_v1.py" />
     <entry file="file://$PROJECT_DIR$/SplitNode_v1.py" />
     <entry file="file://$PROJECT_DIR$/buildTree_v1.py" />
@@ -159,8 +210,18 @@
     <entry file="file://$PROJECT_DIR$/kNN_v2.py" />
     <entry file="file://$PROJECT_DIR$/KNN/kNN_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="351">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/kNN_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
