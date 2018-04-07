@@ -1,6 +1,6 @@
 # Non Linear Classifiers
 
-Codes in Pythonn for: 
+Codes in Python for: 
 
 1) Decision Trees (Bank note authentication dataset)
 2) Random Forest (Bank note authentication dataset)
