@@ -9,6 +9,7 @@ import random
 def loadDataset(filename, split, trainingSet=[], testSet=[]):
     with open(filename, 'r') as csvfile:
         lines = csv.reader(csvfile)
+        #print(lines)
         dataset = list(lines)
         for x in range(len(dataset) - 1):
             # convert first four column to float
@@ -18,7 +19,6 @@ def loadDataset(filename, split, trainingSet=[], testSet=[]):
                 trainingSet.append(dataset[x])
             else:
                 testSet.append(dataset[x])
-
 
 def get_neighbors(eqlidian_dis, k):
     sort_index = np.argsort(eqlidian_dis)
@@ -31,9 +31,9 @@ def get_neighbors(eqlidian_dis, k):
 def similarity_metric(train_data_row, test_data):
     squareddiff = 0
     for i_var in range(1,5):
-        print(train_data_row[i_var])
+        #print(train_data_row[i_var])
         squareddiff += (train_data_row[i_var] - test_data[i_var]) ** 2
-    print('\n')
+    #print('\n')
     return sqrt(squareddiff)
 
 
@@ -54,7 +54,7 @@ for i_test_row in range(len(testSet)):
         dataset_row = trainingSet[i_row]
         temp_dist = similarity_metric(dataset_row, testSet[i_test_row])
         eqlidian_dis.append(temp_dist)
-
+    #print(eqlidian_dis)
     neighbors = get_neighbors(eqlidian_dis, k)
     class_dataset = []
     for x in neighbors:
